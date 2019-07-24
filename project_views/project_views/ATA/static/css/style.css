@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+
+.Class1 a{
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+.Class2 {
+    background-color: #72D7C9;
+}
+
+.Class3{
+    margin: 35px;
+}
+
+.Class3 h1{
+    color: #F7FBFB;
+}
+
+.Class4 p{
+    color: #2A3231;
+    font-family: 'Roboto', sans-serif;
+}
+
+.Class4{
+    background-color: #72D7C9;
+    height: 47px;
+}
+
+.Class5{
+    margin-top: 11px;
+    margin-bottom: -6px;
+}
+.Class5 p{
+    color: aliceblue;
+    font-family: 'Roboto', sans-serif;
+}
+
+.Class6{
+    background-color: black;
+}
+
+.Class7{
+    padding-top: 43px;
+}
+
+.Class8{
+    padding-left: 0px;
+    padding-right: 137px;
+}
+
+.Class15{
+    text-align: center;
+    border: none;
+}
+
+.iframe{
+    position: relative;
+    width: 140;
+}
+
+

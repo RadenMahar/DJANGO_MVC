@@ -1,0 +1,13 @@
+{% extends 'base/base.html' %}
+{% load static %}
+{% block home %}
+
+<h1> Input Mentor </h1>
+<form method="POST" class="MentorInput">
+    {% csrf_token %}
+    <!-- <p class="text-primary"> -->
+    {{formMentor.as_p}}</p>
+    <button type="submit" class="save btn btn-default">Save</button>
+</form>
+
+{% endblock %}  

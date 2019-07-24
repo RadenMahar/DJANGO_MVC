@@ -1,0 +1,21 @@
+{% extends 'base/base.html' %}
+
+{% block home %}
+<div class="container">
+    <br>
+        {% for blog in blog %}
+        <div class="row justify-content-center">
+        <div class="col-md-6">
+            <img width="100%" src="{{blog.picture}}" alt=""><br>
+            <p>{{blog.date}} <span style="float: right;">0 Comment</span></p>
+            <h3>{{blog.head}}</h3>
+            <p>{{blog.text}}</p>
+            <p style="color:mediumturquoise">Baca Selengkapnya</p>
+        </div>
+    </div>
+    <br><br>
+    {% endfor %}
+</div>
+
+{% endblock %}
+<!-- style="width: 263px;" -->

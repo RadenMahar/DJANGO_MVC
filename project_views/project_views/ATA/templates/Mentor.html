@@ -1,0 +1,25 @@
+{% extends "base/base.html" %}
+
+{% block home %}
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-5 text-center">
+                <br><h5><b>Our Mentee</b></h5></div>
+        </div>
+        <br>
+        <div class="row justify-content-center">
+            {% for mentor in mentor %}
+            <div class="col-md-5 text-center">
+                <img src="{{mentor.picture}}" alt="" style="width: 263px;"><br><br>
+            </div>
+            <div class="col-md-7 text-left">
+                <div class="row d-block">
+                    <p><strong>{{mentor.nama}}</strong><br><strong style="color: grey;">{{mentor.jobStatus}}</strong></p>
+                    <p>{{mentor.moto}}</p>
+                </div> 
+            </div>
+            {% endfor %}
+        </div>
+        <br><br><br>
+    </div>
+{% endblock %}
